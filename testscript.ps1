@@ -1,6 +1,6 @@
 $content = Get-Date
 
-Set-Content -Path "content.txt" -Value $content
+Set-Content -Path "content.md" -Value $content
 
 git add .
 
